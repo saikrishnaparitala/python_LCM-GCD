@@ -10,6 +10,6 @@ while True:
             pre_num -= 1
             print("The next prime number is ",next_num)
             print("The previous prime number is :" ,pre_num) 
-        else:
-            print(" please enter again")
-        break
+    if num%2==0 and num%3==0:
+        print("plaese enter prime number only ")
+    break
